@@ -13,3 +13,4 @@ I will be solving the challenges with the 'Beginners' tag first.
 
 The list of challenges finished so far:
 1. [cat tool](01.%20cat/)
+1. [Chrome Extension](02.%20Chrome%20Extension/)

@@ -1,0 +1,17 @@
+{
+	"manifest_version": 3,
+	"name": "New Tab",
+	"version": "1.0",
+	"author": "Ahmed Mohamed Abdelaty",
+	"description": "This extension replaces the new tab page",
+	"chrome_url_overrides": {
+		"newtab": "index.html"
+	},
+	"icons": {
+		"16": "images/icons8-grey-16.png",
+		"32": "images/icons8-grey-32.png",
+		"48": "images/icons8-grey-48.png",
+		"128": "images/icons8-grey-128.png"
+	},
+	"permissions": ["storage"]
+}

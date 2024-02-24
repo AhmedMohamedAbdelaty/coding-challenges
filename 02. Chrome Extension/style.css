@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Sixtyfour&display=swap');
+
+* {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	margin: 0;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+body {
+	font-family: "Janna LT", sans-serif;
+	background-color: #04295B;
+	color: white;
+	font-weight: bold;
+}
+
+
+.container {
+	padding-left: 15px;
+	padding-right: 15px;
+	margin-left: auto;
+	margin-right: auto;
+	min-height: 100vh;
+}
+
+/* Small */
+@media (min-width: 768px) {
+	.container {
+		width: 750px;
+	}
+}
+
+/* Medium */
+@media (min-width: 992px) {
+	.container {
+		width: 970px;
+	}
+}
+
+/* Large */
+@media (min-width: 1200px) {
+	.container {
+		width: 1170px;
+	}
+}
+
+/* End Global Rules */
+
+.container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.date {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+#time {
+	font-size: 5rem;
+}
+
+#date {
+	font-size: 2rem;
+}
+
+.title {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+.title h1 {
+	font-size: 3rem;
+	font-family: 'Sixtyfour', sans-serif;
+	margin-top: 3rem;
+}
+
+
+.list {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	margin-left: 7rem;
+	margin-top: 3rem;
+	font-size: 1.3rem;
+}
+
+ul {
+	margin-top: 1rem;
+	list-style: decimal;
+	padding: 0;
+}
+
+li {
+	margin-top: .2rem;
+	margin-left: 1.4rem;
+}
+@media (max-width: 1000px) {
+	.title h1 {
+		font-size: 2rem;
+	}
+	#time {
+		font-size: 4rem;
+	}
+	#date {
+		font-size: 1.5rem;
+	}
+	.list {
+		font-size: 1rem;
+		justify-content: center;
+		align-items: center;
+		margin-left: 0;
+	}
+}
+@media (max-width: 768px) {
+	.title h1 {
+		font-size: 2rem;
+	}
+	#time {
+		font-size: 3rem;
+	}
+	#date {
+		font-size: 1.5rem;
+	}
+}
+@media (max-width: 700px) {
+	.title h1 {
+		font-size: 1.5rem;
+	}
+	#time {
+		font-size: 2rem;
+	}
+	#date {
+		font-size: 1rem;
+	}
+}
