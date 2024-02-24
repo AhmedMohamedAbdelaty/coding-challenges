@@ -18,7 +18,7 @@ This folder contains a Chrome extension developed as a solution to the challenge
 
 ## Usage
 
-After installing the extension, open a new tab in Chrome. You should see the Coding Challenges Chrome Extension page with dynamic content:
+After installing the extension, open a new tab in Chrome. You should see the new tab page with dynamic content:
 - Time and date
 - current opened Pull Requests from the Coding Challenges repository
 
